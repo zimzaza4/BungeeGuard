@@ -125,7 +125,7 @@ public class BungeeGuardBackendPlugin extends JavaPlugin implements BungeeGuardB
     }
 
     private static boolean isPaperServer() {
-        return classExists("com.destroystokyo.paper.PaperConfig");
+        return false;
     }
 
     private boolean hasProtocolLib() {
